@@ -24,7 +24,7 @@ int main()
     fwd_list.emplace_after(it, 5);
     std::cout << "맨 처음 원소 뒤에 5 추가: ";
     print(fwd_list);
-    // 맨 처음 원소 뒤에 6 추가
+    // 맨 처음 원소 뒤에 6 추가s
     fwd_list.emplace_after(it, 6);
     std::cout << "맨 처음 원소 뒤에 6 추가: ";
     print(fwd_list);
