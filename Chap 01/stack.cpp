@@ -33,10 +33,6 @@ vector<int> solution(vector<int> progresses, vector<int> speeds)
             answer.push_back(cnt);
     }
 
-    for (auto i : answer)
-    {
-        std::cout << i << " ";
-    }
     return answer;
 }
 int main()
