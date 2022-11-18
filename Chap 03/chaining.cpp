@@ -27,6 +27,7 @@ public:
         int n = data.size();
         // value % n번째 리스트를 찾아서 이를 entries라고 한다.
         auto &entries = data[value % n];
+        // find의 값이 entries.end()와 같다면 value가 없다는 뜻.
         return std::find(entries.begin(), entries.end(), value) != entries.end();
     }
 
